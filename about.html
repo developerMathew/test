@@ -1,0 +1,92 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <title>About page</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar navlist">
+        <h1>DRONE WORLD</h1>
+
+        <div class="nav-links show">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="menu">
+            <button onclick="toggleMenu()">☰</button>
+        </div>
+
+    </div>
+    <!-- layer - 1 -->
+    <div class="layer-1">
+        <div class="b1">
+            <img src="b1.png" alt="">
+        </div>
+        <div class="typing-container">
+            <span id="typed-text"></span><span class="cursor">|</span>
+        </div>
+
+    </div>
+    <div class="line"></div>
+    <div class="layers">
+        <div class="layer-2">
+            <div class="layer2-content">
+                <div class="card1-content">
+                    <p>To revolutionize how businesses and individuals see the world from above. We strive to provide
+                        reliable, high-quality
+                        drone services that enhance visual storytelling, improve operational workflows, and unlock new
+                        possibilities across
+                        sectors.</p>
+                </div>
+                <div class="card1">
+                    <img src="b2.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="layer-3">
+            <div class="layer3-content">
+                <div class="card1">
+                    <img src="b1.png" alt="">
+                </div>
+                <div class="card1-content">
+                    <p>To revolutionize how businesses and individuals see the world from above. We strive to provide
+                        reliable, high-quality
+                        drone services that enhance visual storytelling, improve operational workflows, and unlock new
+                        possibilities across
+                        sectors.</p>
+                </div>
+            </div>
+        </div>
+        <div class="layer-4">
+            <div class="layer4-content">
+                <div class="card1-content">
+                    <p>To revolutionize how businesses and individuals see the world from above. We strive to provide
+                        reliable, high-quality
+                        drone services that enhance visual storytelling, improve operational workflows, and unlock new
+                        possibilities across
+                        sectors.</p>
+                </div>
+                <div class="card1">
+                    <img src="b3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('.nav-links');
+            nav.classList.toggle('show');
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>

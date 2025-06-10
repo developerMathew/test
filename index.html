@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DRONE WORLD</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar navlist">
+        <h1>DRONE WORLD</h1>
+
+        <div class="nav-links show">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="menu">
+            <button onclick="toggleMenu()">☰</button>
+        </div>
+
+    </div>
+
+    <div class="parent-1">
+        <img src="drone1.png" alt="">
+    </div>
+
+    <!-- layer - 1 content -->
+    <div class="layer-1">
+        <div class="card1">
+            <div class="drone-image">
+                <img src="drone2.png" alt="">
+                <p>Drone technology is an awesome technology,and that is booming technology.</p>
+                <button class="">Learn more</button>
+            </div>
+        </div>
+        <div class="card2">
+            <div class="drone-image">
+                <img src="drone3.png" alt="">
+                <p>Drone technology is an awesome technology,and that is booming technology.</p>
+                <button class="">Learn more</button>
+            </div>
+        </div>
+        <div class="card3">
+            <div class="drone-image">
+                <img src="drone1.png" alt="">
+                <p>Drone technology is an awesome technology,and that is booming technology.</p>
+                <button class="">Learn more</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="parent-2">
+            <div class="website">
+                <i class="fa-solid fa-globe"></i>
+                <p>www.droneworld.com</p>
+            </div>
+            <div class="facebook">
+                <i class="fa-brands fa-facebook"></i>
+                <p>droneworld_professions</p>
+            </div>
+            <div class="linkedin">
+                <i class="fa-brands fa-linkedin"></i>
+                <p>Droneworld@professions</p>
+            </div>
+            <div class="image">
+                <img src="drone1.png" alt="">
+            </div>
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('.nav-links');
+            nav.classList.toggle('show');
+        }
+    </script>
+
+</body>
+
+</html>

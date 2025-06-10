@@ -1,0 +1,57 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="service.css">
+    <title>Services</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar navlist">
+        <h1>DRONE WORLD</h1>
+
+        <div class="nav-links show">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html" class="active">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="menu">
+            <button onclick="toggleMenu()">☰</button>
+        </div>
+
+    </div>
+    <!-- layer - 1 -->
+    <div class="layer-1">
+        <div class="meet"></div>
+    </div>
+    <div class="layer-2">
+        <h1>Our Services</h1>
+    </div>
+    <div class="layers">
+        <div class="layer-3">
+            <div class="layer3-image"></div>
+            <h1>Client support</h1>
+        </div>
+        <div class="layer-4">
+            <div class="layer4-image"></div>
+            <h1>Upgrade support</h1>
+        </div>
+        <div class="layer-5">
+            <div class="layer5-image"></div>
+            <h1>Exchange offer</h1>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('.nav-links');
+            nav.classList.toggle('show');
+        }
+    </script>
+</body>
+
+</html>
